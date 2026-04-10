@@ -1,0 +1,8 @@
+neostaff/front/node_modules/
+neostaff/front/dist/
+neostaff/front/front1/
+neostaff/__pycache__/
+neostaff/app/__pycache__/
+neostaff/*.db
+neostaff/*.db-journal
+neostaff/front/*.log

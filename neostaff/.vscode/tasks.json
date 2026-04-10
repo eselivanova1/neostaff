@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Migrate Database",
+			"type": "shell",
+			"command": "python simple_migrate.py"
+		},
+		{
+			"label": "Migrate Database V2",
+			"type": "shell",
+			"command": "python simple_migrate_v2.py"
+		},
+		{
+			"label": "Front Build",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"cd front && npm run build"
+			],
+			"problemMatcher": []
+		}
+	]
+}
